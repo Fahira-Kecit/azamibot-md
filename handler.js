@@ -9,8 +9,8 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 
 // Sticker WM
-global.packname = 'Azami x Byoru'
-global.author = 'Bot V5'
+global.packname = 'Instagram'
+global.author = 'cekor.store'
 
 //apikey
 global.api = 'apikeylu'		// https://api.lolhuman.xyz/docs apikeylu
@@ -1190,13 +1190,13 @@ global.dfail = (type, m, conn) => {
 		rowner: `*「OWNERR BOT ONLY」*`,
 		owner: `*「OWNER BOT ONLY」*`,
 		mods: `*「DEV / MODS ONLY」*`,
-		premium: `*「PREMIUM USER ONLY」*\n\n*Or Get Full Access Here :*\nhttps://chat.whatsapp.com/KH2teKqiSpq3GPZbXgNchs\n\nOtherwise type this : *.privatecmd*`,
+		premium: `*「PREMIUM USER ONLY」*\n\n*Or Get Full Access Here :*\nhttps://chat.whatsapp.com/IurnrdxqU3IHIpoPnbBQXB\n\nOtherwise type this : *.privatecmd*`,
 		group: `*「GROUP ONLY」*`,
 		private: `*「PRIVATE CHAT ONLY」*`,
 		admin: `*「ADMIN GROUP ONLY」*`,
 		nsfw: `*NSFW GAK AKTIF*`,
 		botAdmin: `*「BOT HARUS JADI ADMIN」*`,
-		unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
+		unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar WPS.16*',
 		restrict: 'Fitur ini di *disable*!'
 	}[type]
 	if (msg) return m.reply(msg)
