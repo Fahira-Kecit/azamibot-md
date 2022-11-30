@@ -2,8 +2,8 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.owner = [['6282337245566', 'Syahrul A.S', true]] // Put your number here
-global.mods = ['6282337245566'] // Developer / Mods Number
+global.owner = [['6285380779466', 'Andriann', true]] // Put your number here
+global.mods = ['6285380779466'] // Developer / Mods Number
 global.APIs = { // API Prefix
 	// name: 'https://website'
 	nrtm: 'https://nurutomo.herokuapp.com',
